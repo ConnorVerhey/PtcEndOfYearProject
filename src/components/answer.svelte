@@ -3,8 +3,22 @@
 </script>
 
 {#if answer}
-	<p style="color: green;">This answer was correct!</p>
+	<p class="correct">This answer was correct!</p>
 {:else}
-	<p style="color: red;">this answer was incorect!</p>
+	<p class="incorrect">this answer was incorect!</p>
 {/if}
 
+<style>
+.correct {
+	color: green;
+	font-weight: bold;
+	text-decoration: undeline; 
+}
+
+.incorrect {
+	color: red;
+	font-weight: bold; 
+	text-decoration: underline;
+	font-style: italic; 
+}
+</style>
