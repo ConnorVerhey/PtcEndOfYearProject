@@ -18,7 +18,6 @@
 .incorrect {
 	color: red;
 	font-weight: bold; 
-	text-decoration: underline;
-	font-style: italic; 
+	
 }
 </style>

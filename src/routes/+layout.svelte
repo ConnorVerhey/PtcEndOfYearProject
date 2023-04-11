@@ -12,7 +12,7 @@
         position: absolute;
         inset: 0;
 
-        background-color: darkcyan;
+        background-color: lightgray;
     }
 
     .layout {
